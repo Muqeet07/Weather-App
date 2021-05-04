@@ -1,0 +1,1697 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*
+.wholecontainer {
+  width: 400px;
+  height: 500px;
+  background-color: whitesmoke;
+  margin-left: 500px;
+  margin-top: 100px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+
+.todocontainer {
+  width: 200px;
+  height: 60px;
+  background-color: turquoise;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  margin: 50px 50px 0px 50px;
+  padding-left: 100px;
+}
+
+
+.formstyle {
+  border: 2px solid red;
+  background-color: khaki;
+  padding: 20px;
+}
+
+.formstyle .labelstyle {
+  margin-left: 500px;
+  font-weight: bold;
+  color: red;
+}
+
+.formstyle .femalelabelstyle {
+  color: red;
+  font-weight: bold;
+}
+
+.formstyle .labelstyle .inputstyle {
+  width: 200px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: lightskyblue;
+}
+
+.headercontainer {
+  width: 100%;
+  height: 100px;
+  background-color: mediumblue;
+  text-align: center;
+  line-height: 100px;
+}
+
+.headercontainer .headingtext {
+  color: white;
+}
+
+.imagecontainer {
+  width: 700px;
+  height: 500px;
+  margin-left: 350px;
+  text-align: center;
+}
+
+.imagecontainer img {
+  width: 700px;
+  height: 500px;
+}
+
+.toptext {
+  margin-top: -500px;
+}
+
+
+.bottomtext {
+  margin-top: 400px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/* video styling */
+
+.videostyle {
+  display : block;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+/* projectone styling */
+
+/*
+.navbarstyle {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.navbarstyle .titlestyle {
+  font-size: 16pt;
+  font-weight: bold;
+  color: orange;
+  padding-left: 20px;
+}
+
+.navbarstyle .titlestyle:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navbarstyle .ulstyle {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 800px;
+}
+
+.navbarstyle .ulstyle .listyle {
+  list-style: none;
+  width: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.navbarstyle .ulstyle .listyle:hover {
+  background-color: orange;
+}
+
+.footercontainer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.homecontainer {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.6), rgba(3, 3, 3, 0.6)), url('106-1066944_1920x1080-vegeta-ultra-instinct-wallpaper-by-dragonballaffinity-dragon.jpg');
+  background-size: cover;
+  height: 565px;
+}
+
+
+.homecontainer .hometext1 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: orange;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 565px;
+}
+
+
+.homecontainer .hometext1 span {
+  font-size: 25pt;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+.navbarstyle .ulstyle .linkstyle {
+  text-decoration: none;
+  color: white;
+}
+
+.wholecontentcontainer {
+  display: block;
+  height: 565px;
+  background-color: darkgrey;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.wholecontentcontainer .allinfocontainer {
+  padding: 50px;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.wholecontentcontainer .allinfocontainer .linkcontainer {
+  width: 200px;
+  height: 220px;
+  border-radius: 10px;
+  line-height: 5px;
+  margin: 5px 50px 5px 50px;
+}
+
+.infocontainer {
+  width: 200px;
+  height: 220px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: orange;
+  line-height: 5px;
+}
+
+
+.infocontainer img {
+  width: 200px;
+  height: 150px;
+}
+
+.linkstyling {
+  text-decoration: none;
+  color: black;
+}
+
+.infowholecontainer {
+  display: block;
+  height: 505px;
+  padding: 50px 200px 50px 200px;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.infowholecontainer .insideinfowholecontainer {
+  width: 90%;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: orange;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.infowholecontainer .insideinfowholecontainer .infotitlename {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+
+.infowholecontainer .insideinfowholecontainer .inforacename {
+  font-size: 20pt;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+
+.infowholecontainer .insideinfowholecontainer .bio {
+  font-size: 14pt;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+
+
+.infowholecontainer .insideinfowholecontainer .infoimage {
+  width: 400px;
+  height: 400px;
+}
+
+.wholeaboutcontainer {
+  display: block;
+  height: 505px;
+  padding: 50px 200px 50px 200px;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.wholeaboutcontainer .insideaboutcontainer{
+  width: 90%;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: orange;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.wholeaboutcontainer .insideaboutcontainer .abouttext {
+  color: darkslategray;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+
+
+
+/* Acme project styling */
+
+
+/* HEADER STYLE */
+/*
+.headerstyle {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #311B92  ;
+  border-bottom: 1px solid red;
+}
+
+.headerstyle .lefttext {
+  float: left;
+}
+
+.headerstyle .righttext {
+  float: right;
+  margin-right: 10px;
+}
+
+.redone {
+  color: red;
+  padding-left: 10px;
+}
+
+.whiteone {
+  color: white;
+  padding-left: 10px;
+}
+
+/* navbar styling  */
+/*
+.navbarstyle {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-bottom: 1px solid red;
+  display: inline-flex;
+  line-height: 50px;
+}
+
+.navbarstyle .logostyle {
+  width: 115px;
+  height: 55px;
+  padding-left: 10px;
+  position: absolute;
+  margin-top: -2px;
+}
+
+.navbarstyle .logostyle:hover {
+  -webkit-filter: grayscale(1);
+  cursor: pointer;
+}
+
+.navbarstyle .ulstyle {
+  display: inline-flex;
+  margin-left: 110px;
+  height: 50px;
+  margin-top: 0px;
+  z-index: 50;
+}
+
+.navbarstyle .ulstyle .listyle {
+  list-style: none;
+  margin-left: 40px;
+  color: #311B92;
+  line-height: 50px;
+}
+
+.navbarstyle .ulstyle .listyle:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* search icon style */
+/*
+.searchbarspace {
+  display: inline-flex;
+}
+
+.searchicon {
+  margin-left: 50px;
+  margin-top: 17px;
+  color: #311B92;
+}
+
+.searchicon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* cross icon style */
+/*
+.crossicon {
+  margin-left: 50px;
+  margin-top: 17px;
+  color: #311B92;
+}
+
+.crossicon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* search bar style */
+/*
+.searchbarcontainer {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  margin-top: 9px;
+  margin-left: -280px;
+  display: inline-flex;
+  z-index: 100;
+}
+
+.searchbarcontainer .searchinput {
+  width: 240px;
+  height: 30px;
+  position: absolute;
+}
+
+.searchbarcontainer .searchinput:focus {
+  background-color: black;
+  color: white;
+}
+
+.searchbarcontainer .searchbutton {
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #311B92;
+  color: white;
+  margin-left: 240px;
+  margin-top: -2px;
+}
+
+.searchbarcontainer .searchbutton .searchtext {
+  position: absolute;
+  margin-top: -16px;
+  margin-left: -23px;
+}
+
+
+/* dropdown style */
+
+/* 1st dropdown */
+/*
+.dropdownstyle {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 110px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.dropdownstyle.showstyle {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle.showstyle:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle.hidestyle {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle.hidestyle:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.heading {
+  color: red;
+  font-weight: bold;
+}
+
+.normaltext {
+  color: #311B92;
+}
+
+.normaltext:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* 2nd dropdown */
+
+/*
+.dropdownstyle2 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 88px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle2.showstyle2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle2.showstyle2:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle2.hidestyle2 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle2.hidestyle2:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 3rd dropdown */
+
+/*
+.dropdownstyle3 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 429px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle3.showstyle3 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle3.showstyle3:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle3.hidestyle3 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle3.hidestyle3:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* 4th dropdown */
+
+/*
+.dropdownstyle4 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 395px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle4.showstyle4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle4.showstyle4:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle4.hidestyle4 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle4.hidestyle4:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 5th dropdown */
+
+/*
+.dropdownstyle5 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 550px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle5.showstyle5 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle5.showstyle5:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle5.hidestyle5 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle5.hidestyle5:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 6th dropdown */
+
+/*
+.dropdownstyle6 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 740px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle6.showstyle6 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle6.showstyle6:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle6.hidestyle6 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle6.hidestyle6:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 7th dropdown */
+
+/*
+.dropdownstyle7 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 675px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle7.showstyle7 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle7.showstyle7:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle7.hidestyle7 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle7.hidestyle7:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 8th dropdown */
+
+/*
+.dropdownstyle8 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 760px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle8.showstyle8 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle8.showstyle8:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle8.hidestyle8 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle8.hidestyle8:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 9th dropdown */
+/*
+
+.dropdownstyle9 {
+  background-color: lightgray;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  margin-left: 1025px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle9.showstyle9 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle9.showstyle9:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownstyle9.hidestyle9 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdownstyle9.hidestyle9:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Newsfeed style */
+/*
+.newscontainer {
+  width: 100%;
+  height: 40px;
+  background-color: gray;
+  z-index: 5;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.newscontainer .newscontainerp {
+  font-size: 12pt;
+  color: white;
+  position: absolute;
+  animation: moving 60s linear infinite;
+  width: 500%;
+  line-height: 40px;
+  margin-top: -5px;
+}
+
+.newscontainer .newscontainerp:hover {
+  animation-play-state: paused;
+}
+
+.newscontainer .newscontainerp .newsheading {
+  font-size: 16pt;
+  color: red;
+  
+}
+
+.newscontainer .newscontainerp .newssymbol {
+  font-size: 25px;
+  color: red;
+  
+}
+
+
+@keyframes moving {
+  0% {
+      transform: translateX(30%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+/* slider style */
+/*
+.slidercontainer {
+  width: 1050px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+/* slider back style */
+/*
+.sliderbackcontainer {
+  width: 100%;
+  height: 350px;
+  background-color: #311B92;
+  position: absolute;
+  margin-top: -300px;
+  z-index: -1;
+}
+
+.sliderbackcontainer .wholetextcontainer {
+  width: 1050px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+}
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer {
+  display: inline-flex;
+}
+
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer .biggertextcontainer {
+  width: 200px;
+  height: 120px;
+  margin-top: 15px;
+}
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer .biggertextcontainer .bigger1text {
+  font-size: 35pt;
+  margin-left: 90px;
+  color: white;
+}
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer .biggertextcontainer .bigger2text {
+  font-size: 35pt;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 17px;
+  color: white;
+}
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer .verticalline {
+  color: white;
+  font-size: 90pt;
+  margin-top: -32px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sliderbackcontainer .wholetextcontainer .insidewholetextcontainer .textlines {
+  color: white;
+  font-size: 12pt;
+  margin-top: 28px;
+}
+
+
+/* safety container style */
+/*
+.safetycontainer {
+  width: 100%;
+  height: 500px;
+  background-color:white;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.safetycontainer .safetytextcontainer {
+  display: inline-flex;
+  margin-top: 70px;
+}
+
+.safetycontainer .safetytextcontainer hr {
+  border: 0.5px solid gray;
+  width: 300px;
+  margin-left: 70px;
+}
+
+.safetycontainer .safetytextcontainer .rstext {
+  margin-left: 70px;
+  color: gray;
+}
+
+.safetycontainer .safetytextcontainer .wstext {
+  margin-left: 150px;
+  color: gray;
+}
+
+/* safety cards style */
+/*
+.safetycontainer .safetycardscontainer {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.safetycard {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.safetycard:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+.safetycard .safetytexthere {
+  font-size: 18pt;
+  color: black;
+}
+
+.safetycard .imgcontainer {
+  width: 250px;
+  height: 200px;
+}
+
+.safetycard .imgcontainer .imgitself {
+  width: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* services container style */
+/*
+.servicecontainer {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  position: absolute;
+  margin-top: 550px;
+  text-align: center;
+}
+
+.servicecontainer .serviceheading {
+  font-weight: bold;
+  color: black;
+}
+
+.servicecontainer .servicecardscontainer {
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+}
+
+/* service cards style */
+/*
+.servicecardcontainer {
+  height: 300px;
+  width: 250px;
+  margin-left: 70px;
+  font-size: 12pt;
+  color: black;
+  position: relative;
+  background-color: white;
+}
+
+.servicecardcontainer .servicecardheading {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  background-color: red;
+  line-height: 50px;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.servicecardcontainer .readmorebuttoncontainer {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.servicecardcontainer .readmorebuttoncontainer .readmorebutton {
+  margin-top: 30px;
+  border: 1px solid red;
+  color: red;
+  background-color: none;
+  font-weight: bold;
+  background-color: white;
+}
+
+.servicecardcontainer .readmorebuttoncontainer .readmorebutton:hover {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+/* client container style */
+/*
+.clientcontainer {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  margin-top: 1050px;
+  -webkit-filter: grayscale(1);
+}
+
+.clientcontainer:hover {
+  -webkit-filter: grayscale(0);
+}
+
+.clientcontainer .clienttext {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.clientcontainer .clientpiccontainer {
+  width: 100%;
+  height: 150px;
+  display: inline-flex;
+}
+
+/* client pic style */
+/*
+.clientpic {
+  width: 150px;
+  height: 150px;
+  margin-left: 64px;
+}
+
+/* biggerfooter container style */
+/*
+.biggerfootercontainer {
+  width: 100%;
+  height: 500px;
+  background-color: #212F3C;
+  position: absolute;
+  margin-top: 1400px;
+}
+
+/* social media icons container style */
+/*
+.socialmediaiconscontainer {
+  width: 400px;
+  height: 70px;
+  float: right;
+  margin-top: 50px;
+  display: inline-flex;
+  padding: 10px;
+}
+
+.facebookstyle {
+  color: white;
+  margin-left: 30px;
+}
+
+.facebookstyle:hover {
+  color: #3b5999;
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+
+.twitterstyle {
+  color: white;
+  margin-left: 30px;
+}
+
+.twitterstyle:hover {
+  color: #55acee;
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+
+.youtubestyle {
+  color: white;
+  margin-left: 30px;
+}
+
+.youtubestyle:hover {
+  color: #cd201f;
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+
+.linkedinstyle {
+  color: white;
+  margin-left: 30px;
+}
+
+.linkedinstyle:hover {
+  color: #0077B5;
+  transform: rotate(360deg);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+/* bigger footer content container style */
+/*
+.biggerfootercontentcontainerstyle {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.biggerfootercontentcontainerstyle .biggerfootercontentcontainer1 {
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+
+.biggerfootercontentcontainerstyle .biggerfootercontentcontainer2 {
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+/* bigger footer content style */
+/*
+.biggerfootercontentstyle {
+  text-align: left;
+  width: 250px;
+  margin-left: 15px;
+}
+.biggerfootercontentstyle .bfcontentheading {
+  font-size: 13pt;
+  font-weight: bold;
+  color: red;
+}
+
+.biggerfootercontentstyle .bfcontenttext {
+  font-size: 11pt;
+  color: lightgray;
+}
+
+.biggerfootercontentstyle .bfcontenttext:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* small footer style */
+/*
+.smallfootercontainer {
+  width: 100%;
+  height: 70px;
+  background-color: #17202A;
+  position: absolute;
+  margin-top: 1900px;
+  text-align: center;
+  line-height: 70px;
+  color: white;
+}
+
+/* send message style */
+/*
+.sendmsg {
+  position: fixed;
+  width: 200px;
+  height: 30px;
+  display: inline-flex;
+  color: darkgoldenrod;
+  background-color: black;
+  bottom: 0;
+  line-height: 30px;
+  right: 0;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sendmsg .upiconstyle {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+/* message container style */
+/*
+.messagecontainer {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 50px;
+  z-index: 900;
+}
+
+.messagecontainer .downdiv {
+  width: 400px;
+  height: 30px;
+  background-color: black;
+  color: darkgoldenrod;
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.messagecontainer .downdiv .downarrow {
+  margin-top: 6px;
+  margin-left: 200px;
+}
+
+
+/* message form style */
+/*
+.form {
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ width: 300px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.form label {
+  font-weight: bold;
+  float: left;
+}
+
+.form label span {
+  position: absolute;
+}
+
+.form input {
+  width: 200px;
+}
+
+.form button {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: black;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+
+/*   popup message   */
+
+/*
+.popupmain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  overflow: hidden;
+  z-index: 90002;
+}
+
+
+.popup {
+  background-image: url('https://instinctif.com/content/uploads/2018/03/shutterstock_680239339.jpg');
+  background-size: cover;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 5px 3px white;
+}
+
+.popupbutton {
+  margin: 200px 150px 50px 200px;
+  width: 120px;
+  height: 45px;
+  background-color: #002f5f;
+  color: white;
+  font-size: 14pt;
+  border: none;
+
+}
+
+.popupbutton2 {
+  margin:200px 100px 50px -130px;
+  width: 120px;
+  height: 45px;
+  background-color: #002f5f;
+  color: white;
+  font-size: 14pt;
+  border: none;
+  display: inline;
+  position: fixed;
+}
+
+.popupbutton:focus, .popupbutton2:focus {
+  outline: none;
+}
+
+.popupbutton:hover, .popupbutton2:hover {
+  background-color: red;
+}
+
+
+.popupmain {
+  opacity:1;
+  visibility: visible;
+}
+*/
+
+
+
+/* weather app styling */
+
+
+.appcontainer {
+  overflow-x: hidden;
+}
+
+.headerstyle {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  color: black;
+  display: inline-flex;
+  background-color: #0288D1;
+}
+
+.headerstyle .headertext {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.footerstyle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 12pt;
+  color: black;
+  background-color: #0288D1;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+.navicon {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.popupmenu {
+  position: fixed;
+  color: gray;
+  z-index: 100000 !important;
+  right: 0;
+  margin-right: -20px;
+  top: 0;
+  margin-top: 24px;
+  width: 300px;
+  height: 100vh;
+  background-color: black;
+  padding: 10px;
+}
+
+.popupmenu span {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.popupmenu ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 10px;
+  margin-left: -20px;
+}
+
+
+.linkstyle {
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.linkstyle:hover {
+  color: gray;
+}
+
+.msgcontainer {
+  width: 100%;
+  height: 525px;
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/10/starry-night-sky-evening-blue-landscape-4k_1540144784.jpg');
+  background-size: cover;
+}
+
+.msgcontainer .welcomemsg {
+  font-size: 40pt;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.msgcontainer .welcomemsg span {
+  font-size: 28pt;
+  font-weight: lighter;
+  color: black;
+}
+
+.wholeweatherdatacontainer {
+  height: 525px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image: url('https://images.hdqwalls.com/wallpapers/landscape-sky-beautiful.jpg');
+}
+
+.wholeweatherdatacontainer .weatherdatacontainer {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow: 1px 1px 3px 1px lightskyblue;
+}
+
+
+
+.wholeweatherdatacontainer .weatherdatacontainer .imageandtempcontainer{
+  display: inline-flex;
+}
+
+
+.wholeweatherdatacontainer .weatherdatacontainer .imageandtempcontainer .boldtextinside{
+  font-size: 45pt;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.wholeweatherdatacontainer .weatherdatacontainer .moreboldtext{
+  font-size: 20pt;
+  color: black;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+
+
+.wholeweatherdatacontainer .weatherdatacontainer .boldtext{
+  font-size: 14pt;
+  color: black;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+
+.weatherinputcontainer {
+  width: 270px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: lightskyblue;
+}
+
+.weatherinputcontainer .weatherinput {
+  width: 200px;
+  height: 40px;
+  line-height: 30px;
+  padding: 10px;
+  color: black;
+  outline: none;
+  background-color: lightskyblue;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.weatherinputcontainer .weatherinput:focus {
+  background-color: black;
+  color: white;
+}
+
+.displaytext {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid skyblue;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: skyblue transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.textdisplaynow {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.buttonstyle {
+  width: 70px;
+  height: 38px;
+  line-height: 30px;
+  background-color: lightskyblue;
+  color: black;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.buttonstyle:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.clearbuttonstyle {
+  width: 70px;
+  height: 35px;
+  line-height: 30px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  margin-left: 48%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.clearbuttonstyle:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+  color: black
+}
+
+.aboutpagewholecontainer {
+  height: 525px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: url('https://images.hdqwalls.com/wallpapers/landscape-sky-beautiful.jpg');
+}
+
+.aboutpagewholecontainer .aboutpagecontainer {
+  overflow: hidden;
+  text-align: center;
+  width: 70%;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abouttexthere {
+  font-size: 12pt;
+  font-weight: normal;
+}
+
+
+
+
+@media (max-width : 600px) {
+  .wholeweatherdatacontainer .weatherdatacontainer {
+    width: 270px;
+    height: fit-content;
+  }
+
+  .clearbuttonstyle {
+    margin-left: 40%;
+  }
+}
+
+
+
+
+
